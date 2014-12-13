@@ -1,25 +1,34 @@
-.classement {
-    display: inline-bloc;
-    background: url(images/pagination.png) no-repeat 0 -182px;
-    height: 22px;
-    text-indent: -999px;
-    font-size: 0px;
-}
-.choice .one {
-    width: 30px;
-}
-.choice .two {
-    width: 55px;
-}
-.choice .three {
-    width: 75px;
-}
-.choice .four {
-    width: 99px;
-}
+
 .ui-icon-maps {
-    background: blue url(images/maps.png) no-repeat;
+    background:url(../images/maps.png) no-repeat;
 }
 .ui-icon-tel {
-    background: blue url(images/phone.png) no-repeat;
+    background:url(../images/phone.png) no-repeat;
 }
+.menu li{
+font-style:italic;
+font-size:90%;
+    color:red;
+}
+img{
+max-width: 100%;
+height: auto; width: auto;
+box-sizing: border-box;
+}
+
+#map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+ }
+
+#footer
+{
+margin:0;
+}
+
+[data-role=footer]{bottom:0; margin-left:0;  position:relative; top: auto !important; width:100%;}
+[data-role=page]{height: 100% !important; position:absolute!important;
+}
+
+
